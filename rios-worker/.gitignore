@@ -1,0 +1,27 @@
+# Binaries
+rios-worker
+rios-worker-*
+*.exe
+dist/
+
+# Go
+*.o
+*.a
+*.so
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage.out
+*.test
+
