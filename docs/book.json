@@ -1,0 +1,38 @@
+{
+  "title": "RiOS Documentation",
+  "description": "Official documentation for RiOS - Intelligent Operating System",
+  "author": "RiOS Foundation",
+  "language": "en",
+  "gitbook": ">=3.2.0",
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "theme-default",
+    "search",
+    "sharing",
+    "fontsettings",
+    "code",
+    "prism",
+    "-highlight"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "sharing": {
+      "facebook": true,
+      "twitter": true,
+      "all": ["facebook", "twitter", "linkedin"]
+    }
+  },
+  "links": {
+    "sidebar": {
+      "RiOS Official Website": "https://rios.com.ai",
+      "Cloud Service": "https://cloud.rios.com.ai"
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "rios-documentation",
+  "version": "1.0.0",
+  "description": "RiOS Official Documentation",
+  "scripts": {
+    "docs:dev": "gitbook serve",
+    "docs:build": "gitbook build",
+    "docs:install": "gitbook install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rios/rios"
+  },
+  "keywords": [
+    "rios",
+    "documentation",
+    "gitbook"
+  ],
+  "author": "RiOS Foundation",
+  "license": "MIT"
+}
+
